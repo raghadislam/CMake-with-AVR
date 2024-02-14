@@ -39,8 +39,8 @@ CMAKE_COLOR_MAKEFILE:BOOL=ON
 //C++ Compiler
 CMAKE_CXX_COMPILER:STRING=avr-g++
 
-//C compiler
-CMAKE_C_COMPILER:STRING=C:/WinAVR-20100110/bin/avr-gcc.exe
+//C Compiler
+CMAKE_C_COMPILER:STRING=avr-gcc
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler

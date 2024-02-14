@@ -154,125 +154,101 @@ burn/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\burn.dir\build.make CMakeFiles/burn.dir/build
 .PHONY : burn/fast
 
-DIO_prog.obj: DIO_prog.c.obj
-.PHONY : DIO_prog.obj
+simple_project/DIO_prog.obj: simple_project/DIO_prog.c.obj
+.PHONY : simple_project/DIO_prog.obj
 
 # target to build an object file
-DIO_prog.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AVR_FIRST.elf.dir\build.make CMakeFiles/AVR_FIRST.elf.dir/DIO_prog.c.obj
-.PHONY : DIO_prog.c.obj
+simple_project/DIO_prog.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AVR_FIRST.elf.dir\build.make CMakeFiles/AVR_FIRST.elf.dir/simple_project/DIO_prog.c.obj
+.PHONY : simple_project/DIO_prog.c.obj
 
-DIO_prog.i: DIO_prog.c.i
-.PHONY : DIO_prog.i
+simple_project/DIO_prog.i: simple_project/DIO_prog.c.i
+.PHONY : simple_project/DIO_prog.i
 
 # target to preprocess a source file
-DIO_prog.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AVR_FIRST.elf.dir\build.make CMakeFiles/AVR_FIRST.elf.dir/DIO_prog.c.i
-.PHONY : DIO_prog.c.i
+simple_project/DIO_prog.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AVR_FIRST.elf.dir\build.make CMakeFiles/AVR_FIRST.elf.dir/simple_project/DIO_prog.c.i
+.PHONY : simple_project/DIO_prog.c.i
 
-DIO_prog.s: DIO_prog.c.s
-.PHONY : DIO_prog.s
+simple_project/DIO_prog.s: simple_project/DIO_prog.c.s
+.PHONY : simple_project/DIO_prog.s
 
 # target to generate assembly for a file
-DIO_prog.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AVR_FIRST.elf.dir\build.make CMakeFiles/AVR_FIRST.elf.dir/DIO_prog.c.s
-.PHONY : DIO_prog.c.s
+simple_project/DIO_prog.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AVR_FIRST.elf.dir\build.make CMakeFiles/AVR_FIRST.elf.dir/simple_project/DIO_prog.c.s
+.PHONY : simple_project/DIO_prog.c.s
 
-Seven_segment_config.obj: Seven_segment_config.c.obj
-.PHONY : Seven_segment_config.obj
+simple_project/Seven_segment_config.obj: simple_project/Seven_segment_config.c.obj
+.PHONY : simple_project/Seven_segment_config.obj
 
 # target to build an object file
-Seven_segment_config.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AVR_FIRST.elf.dir\build.make CMakeFiles/AVR_FIRST.elf.dir/Seven_segment_config.c.obj
-.PHONY : Seven_segment_config.c.obj
+simple_project/Seven_segment_config.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AVR_FIRST.elf.dir\build.make CMakeFiles/AVR_FIRST.elf.dir/simple_project/Seven_segment_config.c.obj
+.PHONY : simple_project/Seven_segment_config.c.obj
 
-Seven_segment_config.i: Seven_segment_config.c.i
-.PHONY : Seven_segment_config.i
+simple_project/Seven_segment_config.i: simple_project/Seven_segment_config.c.i
+.PHONY : simple_project/Seven_segment_config.i
 
 # target to preprocess a source file
-Seven_segment_config.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AVR_FIRST.elf.dir\build.make CMakeFiles/AVR_FIRST.elf.dir/Seven_segment_config.c.i
-.PHONY : Seven_segment_config.c.i
+simple_project/Seven_segment_config.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AVR_FIRST.elf.dir\build.make CMakeFiles/AVR_FIRST.elf.dir/simple_project/Seven_segment_config.c.i
+.PHONY : simple_project/Seven_segment_config.c.i
 
-Seven_segment_config.s: Seven_segment_config.c.s
-.PHONY : Seven_segment_config.s
+simple_project/Seven_segment_config.s: simple_project/Seven_segment_config.c.s
+.PHONY : simple_project/Seven_segment_config.s
 
 # target to generate assembly for a file
-Seven_segment_config.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AVR_FIRST.elf.dir\build.make CMakeFiles/AVR_FIRST.elf.dir/Seven_segment_config.c.s
-.PHONY : Seven_segment_config.c.s
+simple_project/Seven_segment_config.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AVR_FIRST.elf.dir\build.make CMakeFiles/AVR_FIRST.elf.dir/simple_project/Seven_segment_config.c.s
+.PHONY : simple_project/Seven_segment_config.c.s
 
-Seven_segment_prog.obj: Seven_segment_prog.c.obj
-.PHONY : Seven_segment_prog.obj
+simple_project/Seven_segment_prog.obj: simple_project/Seven_segment_prog.c.obj
+.PHONY : simple_project/Seven_segment_prog.obj
 
 # target to build an object file
-Seven_segment_prog.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AVR_FIRST.elf.dir\build.make CMakeFiles/AVR_FIRST.elf.dir/Seven_segment_prog.c.obj
-.PHONY : Seven_segment_prog.c.obj
+simple_project/Seven_segment_prog.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AVR_FIRST.elf.dir\build.make CMakeFiles/AVR_FIRST.elf.dir/simple_project/Seven_segment_prog.c.obj
+.PHONY : simple_project/Seven_segment_prog.c.obj
 
-Seven_segment_prog.i: Seven_segment_prog.c.i
-.PHONY : Seven_segment_prog.i
+simple_project/Seven_segment_prog.i: simple_project/Seven_segment_prog.c.i
+.PHONY : simple_project/Seven_segment_prog.i
 
 # target to preprocess a source file
-Seven_segment_prog.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AVR_FIRST.elf.dir\build.make CMakeFiles/AVR_FIRST.elf.dir/Seven_segment_prog.c.i
-.PHONY : Seven_segment_prog.c.i
+simple_project/Seven_segment_prog.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AVR_FIRST.elf.dir\build.make CMakeFiles/AVR_FIRST.elf.dir/simple_project/Seven_segment_prog.c.i
+.PHONY : simple_project/Seven_segment_prog.c.i
 
-Seven_segment_prog.s: Seven_segment_prog.c.s
-.PHONY : Seven_segment_prog.s
+simple_project/Seven_segment_prog.s: simple_project/Seven_segment_prog.c.s
+.PHONY : simple_project/Seven_segment_prog.s
 
 # target to generate assembly for a file
-Seven_segment_prog.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AVR_FIRST.elf.dir\build.make CMakeFiles/AVR_FIRST.elf.dir/Seven_segment_prog.c.s
-.PHONY : Seven_segment_prog.c.s
+simple_project/Seven_segment_prog.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AVR_FIRST.elf.dir\build.make CMakeFiles/AVR_FIRST.elf.dir/simple_project/Seven_segment_prog.c.s
+.PHONY : simple_project/Seven_segment_prog.c.s
 
-main.obj: main.c.obj
-.PHONY : main.obj
+simple_project/main.obj: simple_project/main.c.obj
+.PHONY : simple_project/main.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AVR_FIRST.elf.dir\build.make CMakeFiles/AVR_FIRST.elf.dir/main.c.obj
-.PHONY : main.c.obj
+simple_project/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AVR_FIRST.elf.dir\build.make CMakeFiles/AVR_FIRST.elf.dir/simple_project/main.c.obj
+.PHONY : simple_project/main.c.obj
 
-main.i: main.c.i
-.PHONY : main.i
-
-# target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AVR_FIRST.elf.dir\build.make CMakeFiles/AVR_FIRST.elf.dir/main.c.i
-.PHONY : main.c.i
-
-main.s: main.c.s
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AVR_FIRST.elf.dir\build.make CMakeFiles/AVR_FIRST.elf.dir/main.c.s
-.PHONY : main.c.s
-
-timer_prog.obj: timer_prog.c.obj
-.PHONY : timer_prog.obj
-
-# target to build an object file
-timer_prog.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AVR_FIRST.elf.dir\build.make CMakeFiles/AVR_FIRST.elf.dir/timer_prog.c.obj
-.PHONY : timer_prog.c.obj
-
-timer_prog.i: timer_prog.c.i
-.PHONY : timer_prog.i
+simple_project/main.i: simple_project/main.c.i
+.PHONY : simple_project/main.i
 
 # target to preprocess a source file
-timer_prog.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AVR_FIRST.elf.dir\build.make CMakeFiles/AVR_FIRST.elf.dir/timer_prog.c.i
-.PHONY : timer_prog.c.i
+simple_project/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AVR_FIRST.elf.dir\build.make CMakeFiles/AVR_FIRST.elf.dir/simple_project/main.c.i
+.PHONY : simple_project/main.c.i
 
-timer_prog.s: timer_prog.c.s
-.PHONY : timer_prog.s
+simple_project/main.s: simple_project/main.c.s
+.PHONY : simple_project/main.s
 
 # target to generate assembly for a file
-timer_prog.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AVR_FIRST.elf.dir\build.make CMakeFiles/AVR_FIRST.elf.dir/timer_prog.c.s
-.PHONY : timer_prog.c.s
+simple_project/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AVR_FIRST.elf.dir\build.make CMakeFiles/AVR_FIRST.elf.dir/simple_project/main.c.s
+.PHONY : simple_project/main.c.s
 
 # Help Target
 help:
@@ -285,21 +261,18 @@ help:
 	@echo ... burn
 	@echo ... flash
 	@echo ... AVR_FIRST.elf
-	@echo ... DIO_prog.obj
-	@echo ... DIO_prog.i
-	@echo ... DIO_prog.s
-	@echo ... Seven_segment_config.obj
-	@echo ... Seven_segment_config.i
-	@echo ... Seven_segment_config.s
-	@echo ... Seven_segment_prog.obj
-	@echo ... Seven_segment_prog.i
-	@echo ... Seven_segment_prog.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
-	@echo ... timer_prog.obj
-	@echo ... timer_prog.i
-	@echo ... timer_prog.s
+	@echo ... simple_project/DIO_prog.obj
+	@echo ... simple_project/DIO_prog.i
+	@echo ... simple_project/DIO_prog.s
+	@echo ... simple_project/Seven_segment_config.obj
+	@echo ... simple_project/Seven_segment_config.i
+	@echo ... simple_project/Seven_segment_config.s
+	@echo ... simple_project/Seven_segment_prog.obj
+	@echo ... simple_project/Seven_segment_prog.i
+	@echo ... simple_project/Seven_segment_prog.s
+	@echo ... simple_project/main.obj
+	@echo ... simple_project/main.i
+	@echo ... simple_project/main.s
 .PHONY : help
 
 

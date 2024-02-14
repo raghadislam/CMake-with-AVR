@@ -57,17 +57,10 @@ ES_t Seven_segment_enuInit(SEG_t* Copy_AstrSegConfig)
 
 		}
 
-//		*((u8*)0x5b) = (Local_u32Check>>18);
-//		*((u8*)0x3d) = (Local_u32Check>>8);
-//		*((u8*)0x3c) = (Local_u32Check>>16);
-
-
-
 		for(Local_u8Iterator = 0 ; Local_u8Iterator < 21 ; Local_u8Iterator += 3)
 		{
 			if( ( ( Local_u32Check>>Local_u8Iterator ) &7 ) != ES_OK )
 			{
-				//*((u8*)0x3d)=0;
 				return ES_NOK;
 			}
 		}
@@ -202,123 +195,4 @@ ES_t Seven_segment_enuDisableCommon(u8 Copy_u8SegID)
 
 	return Local_enuErrorState;
 
-}
-
-ES_t Seven_segment_enuEnableDot(u8 Copy_u8SegID)
-{
-
-	ES_t Local_enuErrorState = ES_NOK;
-
-	if(Copy_u8SegID < NUM_OF_SEG)
-	{
-
-		if( SEVSEG_AstrConfig[Copy_u8SegID].SEG_u8DOTPort != NOT_CONNECTED && SEVSEG_AstrConfig[Copy_u8SegID].SEG_u8DOTPin != NOT_CONNECTED)
-		{
-			if ( SEVSEG_AstrConfig[Copy_u8SegID].SEG_TYPE == COMMON_CATHODE )
-			{
-				Local_enuErrorState = DIO_enuSetPinVal(SEVSEG_AstrConfig[Copy_u8SegID].SEG_u8DOTPort, SEVSEG_AstrConfig[Copy_u8SegID].SEG_u8DOTPin, DIO_u8HIGH);
-
-				if(Local_enuErrorState != ES_OK) return Local_enuErrorState;
-			}
-
-			else if ( SEVSEG_AstrConfig[Copy_u8SegID].SEG_TYPE == COMMON_ANODE)
-			{
-				Local_enuErrorState = DIO_enuSetPinVal(SEVSEG_AstrConfig[Copy_u8SegID].SEG_u8DOTPort, SEVSEG_AstrConfig[Copy_u8SegID].SEG_u8DOTPin, DIO_u8LOW);
-
-				if(Local_enuErrorState != ES_OK) return Local_enuErrorState;
-			}
-			else return ES_WRONG_TYPE;
-		}
-
-		else return ES_PIN_NOT_CONNECTED;
-	}
-	else return ES_OUT_OF_RANGE;
-
-	Local_enuErrorState = ES_OK;
-
-	return Local_enuErrorState;
-
-
-}
-
-ES_t Seven_segment_enuDisableDot(u8 Copy_u8SegID)
-{
-	ES_t Local_enuErrorState = ES_NOK;
-
-		if(Copy_u8SegID < NUM_OF_SEG)
-		{
-
-			if( SEVSEG_AstrConfig[Copy_u8SegID].SEG_u8DOTPort != NOT_CONNECTED && SEVSEG_AstrConfig[Copy_u8SegID].SEG_u8DOTPin != NOT_CONNECTED)
-			{
-				if ( SEVSEG_AstrConfig[Copy_u8SegID].SEG_TYPE == COMMON_CATHODE )
-				{
-					Local_enuErrorState = DIO_enuSetPinVal(SEVSEG_AstrConfig[Copy_u8SegID].SEG_u8DOTPort, SEVSEG_AstrConfig[Copy_u8SegID].SEG_u8DOTPin, DIO_u8LOW);
-
-					if(Local_enuErrorState != ES_OK) return Local_enuErrorState;
-				}
-
-				else if ( SEVSEG_AstrConfig[Copy_u8SegID].SEG_TYPE == COMMON_ANODE)
-				{
-					Local_enuErrorState = DIO_enuSetPinVal(SEVSEG_AstrConfig[Copy_u8SegID].SEG_u8DOTPort, SEVSEG_AstrConfig[Copy_u8SegID].SEG_u8DOTPin, DIO_u8HIGH);
-
-					if(Local_enuErrorState != ES_OK) return Local_enuErrorState;
-				}
-				else return ES_WRONG_TYPE;
-			}
-
-			else return ES_PIN_NOT_CONNECTED;
-		}
-		else return ES_OUT_OF_RANGE;
-
-		Local_enuErrorState = ES_OK;
-
-		return Local_enuErrorState;
-
-}
-
-ES_t Seven_segment_enuClearDisplay(u8 Copy_u8SegID)
-{
-	ES_t Local_enuErrorState = ES_NOK;
-		u16 Local_u32Check = 0;
-
-		if( Copy_u8SegID < NUM_OF_SEG)
-		{
-			if (SEVSEG_AstrConfig[Copy_u8SegID].SEG_TYPE == COMMON_CATHODE)
-			{
-				Local_u32Check |= ((DIO_enuSetPinVal(SEVSEG_AstrConfig[Copy_u8SegID].SEG_u8APort, SEVSEG_AstrConfig[Copy_u8SegID].SEG_u8APin, DIO_u8LOW ))<<0 );
-				Local_u32Check |= ((DIO_enuSetPinVal(SEVSEG_AstrConfig[Copy_u8SegID].SEG_u8BPort, SEVSEG_AstrConfig[Copy_u8SegID].SEG_u8BPin, DIO_u8LOW ))<<3 );
-				Local_u32Check |= ((DIO_enuSetPinVal(SEVSEG_AstrConfig[Copy_u8SegID].SEG_u8CPort, SEVSEG_AstrConfig[Copy_u8SegID].SEG_u8CPin, DIO_u8LOW ))<<6 );
-				Local_u32Check |= ((u32)(DIO_enuSetPinVal(SEVSEG_AstrConfig[Copy_u8SegID].SEG_u8DPort, SEVSEG_AstrConfig[Copy_u8SegID].SEG_u8DPin, DIO_u8LOW ))<<9 );
-				Local_u32Check |= ((u32)(DIO_enuSetPinVal(SEVSEG_AstrConfig[Copy_u8SegID].SEG_u8EPort, SEVSEG_AstrConfig[Copy_u8SegID].SEG_u8EPin, DIO_u8LOW ))<<12);
-				Local_u32Check |= ((u32)(DIO_enuSetPinVal(SEVSEG_AstrConfig[Copy_u8SegID].SEG_u8FPort, SEVSEG_AstrConfig[Copy_u8SegID].SEG_u8FPin, DIO_u8LOW ))<<15);
-				Local_u32Check |= ((u32)(DIO_enuSetPinVal(SEVSEG_AstrConfig[Copy_u8SegID].SEG_u8GPort, SEVSEG_AstrConfig[Copy_u8SegID].SEG_u8GPin, DIO_u8LOW ))<<18);
-			}
-
-			else if (SEVSEG_AstrConfig[Copy_u8SegID].SEG_TYPE == COMMON_ANODE)
-			{
-				Local_u32Check |= ((DIO_enuSetPinVal(SEVSEG_AstrConfig[Copy_u8SegID].SEG_u8APort, SEVSEG_AstrConfig[Copy_u8SegID].SEG_u8APin, DIO_u8HIGH ))<<0 );
-				Local_u32Check |= ((DIO_enuSetPinVal(SEVSEG_AstrConfig[Copy_u8SegID].SEG_u8BPort, SEVSEG_AstrConfig[Copy_u8SegID].SEG_u8BPin, DIO_u8HIGH ))<<3 );
-				Local_u32Check |= ((DIO_enuSetPinVal(SEVSEG_AstrConfig[Copy_u8SegID].SEG_u8CPort, SEVSEG_AstrConfig[Copy_u8SegID].SEG_u8CPin, DIO_u8HIGH ))<<6 );
-				Local_u32Check |= ((u32)(DIO_enuSetPinVal(SEVSEG_AstrConfig[Copy_u8SegID].SEG_u8DPort, SEVSEG_AstrConfig[Copy_u8SegID].SEG_u8DPin, DIO_u8HIGH ))<<9 );
-				Local_u32Check |= ((u32)(DIO_enuSetPinVal(SEVSEG_AstrConfig[Copy_u8SegID].SEG_u8EPort, SEVSEG_AstrConfig[Copy_u8SegID].SEG_u8EPin, DIO_u8HIGH ))<<12);
-				Local_u32Check |= ((u32)(DIO_enuSetPinVal(SEVSEG_AstrConfig[Copy_u8SegID].SEG_u8FPort, SEVSEG_AstrConfig[Copy_u8SegID].SEG_u8FPin, DIO_u8HIGH ))<<15);
-				Local_u32Check |= ((u32)(DIO_enuSetPinVal(SEVSEG_AstrConfig[Copy_u8SegID].SEG_u8GPort, SEVSEG_AstrConfig[Copy_u8SegID].SEG_u8GPin, DIO_u8HIGH ))<<18);
-			}
-			else return ES_WRONG_TYPE;
-
-
-		}
-		else return ES_OUT_OF_RANGE;
-
-		u8 Local_u8Iterator;
-		for(Local_u8Iterator = 0 ; Local_u8Iterator < 21 ; Local_u8Iterator += 3)
-		{
-			if( ( ( Local_u32Check>>Local_u8Iterator ) &7 ) != ES_OK )
-			{
-				return ES_NOK;
-			}
-		}
-		Local_enuErrorState = ES_OK;
-
-		return Local_enuErrorState;
 }

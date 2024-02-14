@@ -83,12 +83,12 @@ clean: CMakeFiles/burn.dir/clean
 CMakeFiles/AVR_FIRST.elf.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AVR_FIRST.elf.dir\build.make CMakeFiles/AVR_FIRST.elf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AVR_FIRST.elf.dir\build.make CMakeFiles/AVR_FIRST.elf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\DeLL\Desktop\Embedded\Cmake_avr\build\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target AVR_FIRST.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\DeLL\Desktop\Embedded\Cmake_avr\build\CMakeFiles --progress-num=1,2,3,4,5 "Built target AVR_FIRST.elf"
 .PHONY : CMakeFiles/AVR_FIRST.elf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/AVR_FIRST.elf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\DeLL\Desktop\Embedded\Cmake_avr\build\CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\DeLL\Desktop\Embedded\Cmake_avr\build\CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/AVR_FIRST.elf.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\DeLL\Desktop\Embedded\Cmake_avr\build\CMakeFiles 0
 .PHONY : CMakeFiles/AVR_FIRST.elf.dir/rule
@@ -114,7 +114,7 @@ CMakeFiles/flash.dir/all: CMakeFiles/AVR_FIRST.elf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/flash.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\DeLL\Desktop\Embedded\Cmake_avr\build\CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\DeLL\Desktop\Embedded\Cmake_avr\build\CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/flash.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\DeLL\Desktop\Embedded\Cmake_avr\build\CMakeFiles 0
 .PHONY : CMakeFiles/flash.dir/rule
@@ -140,7 +140,7 @@ CMakeFiles/burn.dir/all: CMakeFiles/flash.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/burn.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\DeLL\Desktop\Embedded\Cmake_avr\build\CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\DeLL\Desktop\Embedded\Cmake_avr\build\CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/burn.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\DeLL\Desktop\Embedded\Cmake_avr\build\CMakeFiles 0
 .PHONY : CMakeFiles/burn.dir/rule
