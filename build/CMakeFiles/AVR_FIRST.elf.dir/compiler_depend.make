@@ -7,17 +7,6 @@ CMakeFiles/AVR_FIRST.elf.dir/DIO_prog.c.obj: C:/Users/DeLL/Desktop/Embedded/Cmak
   C:/Users/DeLL/Desktop/Embedded/Cmake_avr/STDTypes.h \
   C:/Users/DeLL/Desktop/Embedded/Cmake_avr/errorState.h
 
-CMakeFiles/AVR_FIRST.elf.dir/LCD_prog.c.obj: C:/Users/DeLL/Desktop/Embedded/Cmake_avr/LCD_prog.c \
-  C:/Users/DeLL/Desktop/Embedded/Cmake_avr/DIO_int.h \
-  C:/Users/DeLL/Desktop/Embedded/Cmake_avr/LCD_config.h \
-  C:/Users/DeLL/Desktop/Embedded/Cmake_avr/LCD_priv.h \
-  C:/Users/DeLL/Desktop/Embedded/Cmake_avr/STDTypes.h \
-  C:/Users/DeLL/Desktop/Embedded/Cmake_avr/errorState.h \
-  C:/WinAVR-20100110/avr/include/inttypes.h \
-  C:/WinAVR-20100110/avr/include/stdint.h \
-  C:/WinAVR-20100110/avr/include/util/delay.h \
-  C:/WinAVR-20100110/avr/include/util/delay_basic.h
-
 CMakeFiles/AVR_FIRST.elf.dir/Seven_segment_config.c.obj: C:/Users/DeLL/Desktop/Embedded/Cmake_avr/Seven_segment_config.c \
   C:/Users/DeLL/Desktop/Embedded/Cmake_avr/DIO_int.h \
   C:/Users/DeLL/Desktop/Embedded/Cmake_avr/STDTypes.h \
@@ -38,41 +27,37 @@ CMakeFiles/AVR_FIRST.elf.dir/main.c.obj: C:/Users/DeLL/Desktop/Embedded/Cmake_av
   C:/Users/DeLL/Desktop/Embedded/Cmake_avr/Seven_segment_config.h \
   C:/Users/DeLL/Desktop/Embedded/Cmake_avr/Seven_segment_int.h \
   C:/Users/DeLL/Desktop/Embedded/Cmake_avr/errorState.h \
+  C:/Users/DeLL/Desktop/Embedded/Cmake_avr/timer_int.h \
   C:/WinAVR-20100110/avr/include/inttypes.h \
   C:/WinAVR-20100110/avr/include/stdint.h \
   C:/WinAVR-20100110/avr/include/util/delay.h \
   C:/WinAVR-20100110/avr/include/util/delay_basic.h
 
+CMakeFiles/AVR_FIRST.elf.dir/timer_prog.c.obj: C:/Users/DeLL/Desktop/Embedded/Cmake_avr/timer_prog.c \
+  C:/Users/DeLL/Desktop/Embedded/Cmake_avr/BIT_MATH.h \
+  C:/Users/DeLL/Desktop/Embedded/Cmake_avr/STDTypes.h \
+  C:/Users/DeLL/Desktop/Embedded/Cmake_avr/timer_config.h \
+  C:/Users/DeLL/Desktop/Embedded/Cmake_avr/timer_priv.h \
+  C:/Users/DeLL/Desktop/Embedded/Cmake_avr/errorState.h
+
 
 C:/Users/DeLL/Desktop/Embedded/Cmake_avr/DIO_prog.c:
+
+C:/Users/DeLL/Desktop/Embedded/Cmake_avr/Seven_segment_config.c:
 
 C:/Users/DeLL/Desktop/Embedded/Cmake_avr/DIO_config.h:
 
 C:/Users/DeLL/Desktop/Embedded/Cmake_avr/DIO_priv.h:
 
-C:/Users/DeLL/Desktop/Embedded/Cmake_avr/DIO_int.h:
-
-C:/Users/DeLL/Desktop/Embedded/Cmake_avr/Seven_segment_config.h:
-
 C:/WinAVR-20100110/avr/include/util/delay.h:
 
 C:/Users/DeLL/Desktop/Embedded/Cmake_avr/STDTypes.h:
 
+C:/Users/DeLL/Desktop/Embedded/Cmake_avr/Seven_segment_config.h:
+
+C:/Users/DeLL/Desktop/Embedded/Cmake_avr/DIO_int.h:
+
 C:/Users/DeLL/Desktop/Embedded/Cmake_avr/errorState.h:
-
-C:/Users/DeLL/Desktop/Embedded/Cmake_avr/LCD_prog.c:
-
-C:/Users/DeLL/Desktop/Embedded/Cmake_avr/LCD_config.h:
-
-C:/Users/DeLL/Desktop/Embedded/Cmake_avr/LCD_priv.h:
-
-C:/WinAVR-20100110/avr/include/inttypes.h:
-
-C:/WinAVR-20100110/avr/include/stdint.h:
-
-C:/WinAVR-20100110/avr/include/util/delay_basic.h:
-
-C:/Users/DeLL/Desktop/Embedded/Cmake_avr/Seven_segment_config.c:
 
 C:/Users/DeLL/Desktop/Embedded/Cmake_avr/Seven_segment_int.h:
 
@@ -81,3 +66,19 @@ C:/Users/DeLL/Desktop/Embedded/Cmake_avr/Seven_segment_priv.h:
 C:/Users/DeLL/Desktop/Embedded/Cmake_avr/Seven_segment_prog.c:
 
 C:/Users/DeLL/Desktop/Embedded/Cmake_avr/main.c:
+
+C:/Users/DeLL/Desktop/Embedded/Cmake_avr/timer_int.h:
+
+C:/WinAVR-20100110/avr/include/inttypes.h:
+
+C:/WinAVR-20100110/avr/include/stdint.h:
+
+C:/WinAVR-20100110/avr/include/util/delay_basic.h:
+
+C:/Users/DeLL/Desktop/Embedded/Cmake_avr/timer_prog.c:
+
+C:/Users/DeLL/Desktop/Embedded/Cmake_avr/BIT_MATH.h:
+
+C:/Users/DeLL/Desktop/Embedded/Cmake_avr/timer_config.h:
+
+C:/Users/DeLL/Desktop/Embedded/Cmake_avr/timer_priv.h:

@@ -82,24 +82,10 @@ CMakeFiles/AVR_FIRST.elf.dir/DIO_prog.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AVR_FIRST.elf.dir/DIO_prog.c.s"
 	C:\WinAVR-20100110\bin\avr-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\DeLL\Desktop\Embedded\Cmake_avr\DIO_prog.c -o CMakeFiles\AVR_FIRST.elf.dir\DIO_prog.c.s
 
-CMakeFiles/AVR_FIRST.elf.dir/LCD_prog.c.obj: CMakeFiles/AVR_FIRST.elf.dir/flags.make
-CMakeFiles/AVR_FIRST.elf.dir/LCD_prog.c.obj: C:/Users/DeLL/Desktop/Embedded/Cmake_avr/LCD_prog.c
-CMakeFiles/AVR_FIRST.elf.dir/LCD_prog.c.obj: CMakeFiles/AVR_FIRST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\DeLL\Desktop\Embedded\Cmake_avr\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/AVR_FIRST.elf.dir/LCD_prog.c.obj"
-	C:\WinAVR-20100110\bin\avr-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AVR_FIRST.elf.dir/LCD_prog.c.obj -MF CMakeFiles\AVR_FIRST.elf.dir\LCD_prog.c.obj.d -o CMakeFiles\AVR_FIRST.elf.dir\LCD_prog.c.obj -c C:\Users\DeLL\Desktop\Embedded\Cmake_avr\LCD_prog.c
-
-CMakeFiles/AVR_FIRST.elf.dir/LCD_prog.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AVR_FIRST.elf.dir/LCD_prog.c.i"
-	C:\WinAVR-20100110\bin\avr-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\DeLL\Desktop\Embedded\Cmake_avr\LCD_prog.c > CMakeFiles\AVR_FIRST.elf.dir\LCD_prog.c.i
-
-CMakeFiles/AVR_FIRST.elf.dir/LCD_prog.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AVR_FIRST.elf.dir/LCD_prog.c.s"
-	C:\WinAVR-20100110\bin\avr-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\DeLL\Desktop\Embedded\Cmake_avr\LCD_prog.c -o CMakeFiles\AVR_FIRST.elf.dir\LCD_prog.c.s
-
 CMakeFiles/AVR_FIRST.elf.dir/Seven_segment_config.c.obj: CMakeFiles/AVR_FIRST.elf.dir/flags.make
 CMakeFiles/AVR_FIRST.elf.dir/Seven_segment_config.c.obj: C:/Users/DeLL/Desktop/Embedded/Cmake_avr/Seven_segment_config.c
 CMakeFiles/AVR_FIRST.elf.dir/Seven_segment_config.c.obj: CMakeFiles/AVR_FIRST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\DeLL\Desktop\Embedded\Cmake_avr\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/AVR_FIRST.elf.dir/Seven_segment_config.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\DeLL\Desktop\Embedded\Cmake_avr\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/AVR_FIRST.elf.dir/Seven_segment_config.c.obj"
 	C:\WinAVR-20100110\bin\avr-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AVR_FIRST.elf.dir/Seven_segment_config.c.obj -MF CMakeFiles\AVR_FIRST.elf.dir\Seven_segment_config.c.obj.d -o CMakeFiles\AVR_FIRST.elf.dir\Seven_segment_config.c.obj -c C:\Users\DeLL\Desktop\Embedded\Cmake_avr\Seven_segment_config.c
 
 CMakeFiles/AVR_FIRST.elf.dir/Seven_segment_config.c.i: cmake_force
@@ -113,7 +99,7 @@ CMakeFiles/AVR_FIRST.elf.dir/Seven_segment_config.c.s: cmake_force
 CMakeFiles/AVR_FIRST.elf.dir/Seven_segment_prog.c.obj: CMakeFiles/AVR_FIRST.elf.dir/flags.make
 CMakeFiles/AVR_FIRST.elf.dir/Seven_segment_prog.c.obj: C:/Users/DeLL/Desktop/Embedded/Cmake_avr/Seven_segment_prog.c
 CMakeFiles/AVR_FIRST.elf.dir/Seven_segment_prog.c.obj: CMakeFiles/AVR_FIRST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\DeLL\Desktop\Embedded\Cmake_avr\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/AVR_FIRST.elf.dir/Seven_segment_prog.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\DeLL\Desktop\Embedded\Cmake_avr\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/AVR_FIRST.elf.dir/Seven_segment_prog.c.obj"
 	C:\WinAVR-20100110\bin\avr-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AVR_FIRST.elf.dir/Seven_segment_prog.c.obj -MF CMakeFiles\AVR_FIRST.elf.dir\Seven_segment_prog.c.obj.d -o CMakeFiles\AVR_FIRST.elf.dir\Seven_segment_prog.c.obj -c C:\Users\DeLL\Desktop\Embedded\Cmake_avr\Seven_segment_prog.c
 
 CMakeFiles/AVR_FIRST.elf.dir/Seven_segment_prog.c.i: cmake_force
@@ -127,7 +113,7 @@ CMakeFiles/AVR_FIRST.elf.dir/Seven_segment_prog.c.s: cmake_force
 CMakeFiles/AVR_FIRST.elf.dir/main.c.obj: CMakeFiles/AVR_FIRST.elf.dir/flags.make
 CMakeFiles/AVR_FIRST.elf.dir/main.c.obj: C:/Users/DeLL/Desktop/Embedded/Cmake_avr/main.c
 CMakeFiles/AVR_FIRST.elf.dir/main.c.obj: CMakeFiles/AVR_FIRST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\DeLL\Desktop\Embedded\Cmake_avr\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/AVR_FIRST.elf.dir/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\DeLL\Desktop\Embedded\Cmake_avr\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/AVR_FIRST.elf.dir/main.c.obj"
 	C:\WinAVR-20100110\bin\avr-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AVR_FIRST.elf.dir/main.c.obj -MF CMakeFiles\AVR_FIRST.elf.dir\main.c.obj.d -o CMakeFiles\AVR_FIRST.elf.dir\main.c.obj -c C:\Users\DeLL\Desktop\Embedded\Cmake_avr\main.c
 
 CMakeFiles/AVR_FIRST.elf.dir/main.c.i: cmake_force
@@ -138,22 +124,36 @@ CMakeFiles/AVR_FIRST.elf.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AVR_FIRST.elf.dir/main.c.s"
 	C:\WinAVR-20100110\bin\avr-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\DeLL\Desktop\Embedded\Cmake_avr\main.c -o CMakeFiles\AVR_FIRST.elf.dir\main.c.s
 
+CMakeFiles/AVR_FIRST.elf.dir/timer_prog.c.obj: CMakeFiles/AVR_FIRST.elf.dir/flags.make
+CMakeFiles/AVR_FIRST.elf.dir/timer_prog.c.obj: C:/Users/DeLL/Desktop/Embedded/Cmake_avr/timer_prog.c
+CMakeFiles/AVR_FIRST.elf.dir/timer_prog.c.obj: CMakeFiles/AVR_FIRST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\DeLL\Desktop\Embedded\Cmake_avr\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/AVR_FIRST.elf.dir/timer_prog.c.obj"
+	C:\WinAVR-20100110\bin\avr-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AVR_FIRST.elf.dir/timer_prog.c.obj -MF CMakeFiles\AVR_FIRST.elf.dir\timer_prog.c.obj.d -o CMakeFiles\AVR_FIRST.elf.dir\timer_prog.c.obj -c C:\Users\DeLL\Desktop\Embedded\Cmake_avr\timer_prog.c
+
+CMakeFiles/AVR_FIRST.elf.dir/timer_prog.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AVR_FIRST.elf.dir/timer_prog.c.i"
+	C:\WinAVR-20100110\bin\avr-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\DeLL\Desktop\Embedded\Cmake_avr\timer_prog.c > CMakeFiles\AVR_FIRST.elf.dir\timer_prog.c.i
+
+CMakeFiles/AVR_FIRST.elf.dir/timer_prog.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AVR_FIRST.elf.dir/timer_prog.c.s"
+	C:\WinAVR-20100110\bin\avr-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\DeLL\Desktop\Embedded\Cmake_avr\timer_prog.c -o CMakeFiles\AVR_FIRST.elf.dir\timer_prog.c.s
+
 # Object files for target AVR_FIRST.elf
 AVR_FIRST_elf_OBJECTS = \
 "CMakeFiles/AVR_FIRST.elf.dir/DIO_prog.c.obj" \
-"CMakeFiles/AVR_FIRST.elf.dir/LCD_prog.c.obj" \
 "CMakeFiles/AVR_FIRST.elf.dir/Seven_segment_config.c.obj" \
 "CMakeFiles/AVR_FIRST.elf.dir/Seven_segment_prog.c.obj" \
-"CMakeFiles/AVR_FIRST.elf.dir/main.c.obj"
+"CMakeFiles/AVR_FIRST.elf.dir/main.c.obj" \
+"CMakeFiles/AVR_FIRST.elf.dir/timer_prog.c.obj"
 
 # External object files for target AVR_FIRST.elf
 AVR_FIRST_elf_EXTERNAL_OBJECTS =
 
 AVR_FIRST.elf: CMakeFiles/AVR_FIRST.elf.dir/DIO_prog.c.obj
-AVR_FIRST.elf: CMakeFiles/AVR_FIRST.elf.dir/LCD_prog.c.obj
 AVR_FIRST.elf: CMakeFiles/AVR_FIRST.elf.dir/Seven_segment_config.c.obj
 AVR_FIRST.elf: CMakeFiles/AVR_FIRST.elf.dir/Seven_segment_prog.c.obj
 AVR_FIRST.elf: CMakeFiles/AVR_FIRST.elf.dir/main.c.obj
+AVR_FIRST.elf: CMakeFiles/AVR_FIRST.elf.dir/timer_prog.c.obj
 AVR_FIRST.elf: CMakeFiles/AVR_FIRST.elf.dir/build.make
 AVR_FIRST.elf: CMakeFiles/AVR_FIRST.elf.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\DeLL\Desktop\Embedded\Cmake_avr\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable AVR_FIRST.elf"

@@ -15,7 +15,7 @@ typedef double f64;
 typedef signed long long s64;
 
 #define NULL (void*)0
-
+#define SYSTEM_CLK	16000000ULL
 
 
 #endif /* STDTYPE_H_ */

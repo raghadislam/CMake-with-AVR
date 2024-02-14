@@ -178,30 +178,6 @@ DIO_prog.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AVR_FIRST.elf.dir\build.make CMakeFiles/AVR_FIRST.elf.dir/DIO_prog.c.s
 .PHONY : DIO_prog.c.s
 
-LCD_prog.obj: LCD_prog.c.obj
-.PHONY : LCD_prog.obj
-
-# target to build an object file
-LCD_prog.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AVR_FIRST.elf.dir\build.make CMakeFiles/AVR_FIRST.elf.dir/LCD_prog.c.obj
-.PHONY : LCD_prog.c.obj
-
-LCD_prog.i: LCD_prog.c.i
-.PHONY : LCD_prog.i
-
-# target to preprocess a source file
-LCD_prog.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AVR_FIRST.elf.dir\build.make CMakeFiles/AVR_FIRST.elf.dir/LCD_prog.c.i
-.PHONY : LCD_prog.c.i
-
-LCD_prog.s: LCD_prog.c.s
-.PHONY : LCD_prog.s
-
-# target to generate assembly for a file
-LCD_prog.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AVR_FIRST.elf.dir\build.make CMakeFiles/AVR_FIRST.elf.dir/LCD_prog.c.s
-.PHONY : LCD_prog.c.s
-
 Seven_segment_config.obj: Seven_segment_config.c.obj
 .PHONY : Seven_segment_config.obj
 
@@ -274,6 +250,30 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AVR_FIRST.elf.dir\build.make CMakeFiles/AVR_FIRST.elf.dir/main.c.s
 .PHONY : main.c.s
 
+timer_prog.obj: timer_prog.c.obj
+.PHONY : timer_prog.obj
+
+# target to build an object file
+timer_prog.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AVR_FIRST.elf.dir\build.make CMakeFiles/AVR_FIRST.elf.dir/timer_prog.c.obj
+.PHONY : timer_prog.c.obj
+
+timer_prog.i: timer_prog.c.i
+.PHONY : timer_prog.i
+
+# target to preprocess a source file
+timer_prog.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AVR_FIRST.elf.dir\build.make CMakeFiles/AVR_FIRST.elf.dir/timer_prog.c.i
+.PHONY : timer_prog.c.i
+
+timer_prog.s: timer_prog.c.s
+.PHONY : timer_prog.s
+
+# target to generate assembly for a file
+timer_prog.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AVR_FIRST.elf.dir\build.make CMakeFiles/AVR_FIRST.elf.dir/timer_prog.c.s
+.PHONY : timer_prog.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -288,9 +288,6 @@ help:
 	@echo ... DIO_prog.obj
 	@echo ... DIO_prog.i
 	@echo ... DIO_prog.s
-	@echo ... LCD_prog.obj
-	@echo ... LCD_prog.i
-	@echo ... LCD_prog.s
 	@echo ... Seven_segment_config.obj
 	@echo ... Seven_segment_config.i
 	@echo ... Seven_segment_config.s
@@ -300,6 +297,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... timer_prog.obj
+	@echo ... timer_prog.i
+	@echo ... timer_prog.s
 .PHONY : help
 
 
