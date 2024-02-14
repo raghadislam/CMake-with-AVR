@@ -16,5 +16,4 @@ ES_t Seven_segment_enuEnableCommon(u8 Copy_u8SegID);
 
 ES_t Seven_segment_enuDisableCommon(u8 Copy_u8SegID);
 
-
 #endif /* SEVEN_SEGMENT_INT_H_ */

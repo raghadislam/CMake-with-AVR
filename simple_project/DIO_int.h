@@ -24,18 +24,9 @@
 
 ES_t DIO_enuInit(void);
 
-ES_t DIO_enuSetPortDir (u8 Copy_u8PortID , u8 Copy_u8Val );
-
-ES_t DIO_enuSetPortVal( u8 Copy_u8PortID , u8 Copy_u8Val );
-
-ES_t DIO_enuGetPortVal( u8 Copy_u8PortID , u8* Copy_pu8Val );
-
 ES_t DIO_enuSetPinDir( u8 Copy_u8PortID , u8 Copy_u8PinID , u8 Copy_u8Val );
 
 ES_t DIO_enuSetPinVal( u8 Copy_u8PortID , u8 Copy_u8PinID , u8 Copy_u8Val );
-
-ES_t DIO_enuGetPinVal( u8 Copy_u8PortID , u8 Copy_u8PinID , u8* Copy_pu8Val );
-
 
 #define DIO_u8OUTPUT  1
 #define DIO_u8INPUT   0
