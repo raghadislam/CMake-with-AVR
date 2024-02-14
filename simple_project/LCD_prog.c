@@ -164,47 +164,6 @@ ES_t LCD_enuDisplayString(u8* Copy_pu8String)
 	return Local_enuErrorState;
 }
 
-
-
-
-ES_t LCD_enuCreatChar(u8* Copy_Au8NewChar, u8 Copy_u8Size, u8 Copy_u8StartPattern )
-{
-	ES_t Local_enuErrorState = ES_NOK;
-
-	Local_enuErrorState = LCD_enuSendCommand(0x40 + 8*Copy_u8StartPattern);
-
-	u8 Local_u8Iterator;
-
-	for( Local_u8Iterator = 0 ; Local_u8Iterator < Copy_u8Size*8 ; ++Local_u8Iterator)
-	{
-		LCD_enuSendChar(Copy_Au8NewChar[Local_u8Iterator]);
-	}
-
-#if DISPLAY_DIRECTION == RIGHT_TO_LEFT
-	LCD_enuSendCommand(0x80);
-	LCD_enuSendCommand(0x06);
-#elif DISPLAY_DIRECTION == LEFT_TO_RIGHT
-	LCD_enuSendCommand(0x8f);
-	LCD_enuSendCommand(0x04);
-#else
-#error "Unsupported Display Direction"
-#endif
-
-//	LCD_enuSendCommand(DISPLAY_LOCATION);
-//#if DISPLAY_DIRECTION == RIGHT_TO_LEFT
-//	LCD_enuSendCommand(0x04);
-//#elif DISPLAY_DIRECTION == LEFT_TO_RIGHT
-//	LCD_enuSendCommand(0x06);
-//#else
-//#error "Unsupported Display Direction"
-//#endif
-
-	return Local_enuErrorState;
-
-}
-
-
-
 ES_t LCD_enuGoto(u8 Copy_u8Line,u8 Copy_u8Block)
 {
 	ES_t Local_enuErrorState = ES_NOK;
